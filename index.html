@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Cuanki Dan Mie</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="assest/1.jpeg" alt="logo" class="logo-img" />
+        <h1 class="logo-title">CUANKI</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#tentang">TENTANG</a></li>
+          <li><a href="mailto:nenganya.id@gmail.com">KONTAK</a></li>
+        </ul>
+      </nav>
+      <button class="btn-cta" onclick="redirInstagram()">Folow Saya</button>
+    </header>
+    <div class="container">
+      <div class="intro">
+        <p class="title">Hai Ada Cuanki Enak Disini</p>
+        <p class="title">Cuanki Mie</p>
+        <p class="title">Cuanki Bihun</p>
+        <img src="assest/7.jpeg" alt="hadi" class="img-foto" />
+      </div>
+    </div>
+    <div class="parallax">
+      <div class="tentang">
+        <p class="title">Cara Baru Makan Cuanki</p>
+        <p class="title">Pas Untuk Semua Kalangan</p>
+        <div class="mt-10">
+          <button class="btn-cta" onclick="redirWhatsapp()">
+            Silahkan Hubungi
+          </button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card" id="tentang">
+          <div class="card-item">
+            <img src="assest/2.jpeg" alt="icon 1" class="icon" />
+            <p class="card-title">Harga Lebih Murah</p>
+            <p class="card-description">Untuk Semua Cuanki</p>
+          </div>
+          <div class="card-item">
+            <img src="assest/5.jpeg" alt="icon 1" class="icon" />
+            <p class="card-title">Untuk Semua Variant</p>
+            <p class="card-descriptione">Cuanki Mie Instan</p>
+          </div>
+          <div class="card-item">
+            <img src="assest/6.jpeg" alt="icon 1" class="icon" />
+            <p class="card-title">Tingkat Mood Kalian Dengan Makan Cuanki</p>
+            <p class="card-description">Langsung Buruan Diorder Ya Guys</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p class="title">&copy; Cuanki Mie Instan Website 2023</p>
+    </footer>
+    <script>
+      function redirInstagram() {
+        window.location.href = "https://www.instagram.com/nenganya.id/";
+      }
+      function redirWhatsapp() {
+        window.location.href = "https://wa.me/c/6285711180600";
+      }
+    </script>
+  </body>
+</html>
